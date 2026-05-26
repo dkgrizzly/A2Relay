@@ -7,6 +7,8 @@
 
 # Apple II Gameport Relay Interface
 
+![PCB Rendering](pcb-render.png)
+
 This is a design for a small PCB to control inexpensive [8-relay modules](https://amzn.to/4dw5lLv) <sup>(Amazon affiliate link)</sup> using the Apple II's gameport annunciators and strobe output.
 Use AN3 to set on/off state, AN0-AN2 to select which relay to control, and $C040 strobe to store the value.
 All pins are passed through to a socket where you can attach a gamepad, paddles, or other input device.
