@@ -1,7 +1,8 @@
 > [!WARNING]
 > This design is currently untested as of 5/26/2026. There may be errors in the design or example code.
-> Update 6/12/2026: Because the 74_259 resets to all outputs low and the relay module is active low, all the relays default to being on at startup.
-> Adding a 74_240 inline between the 74_259 and relay board will correct for this in a future revision.
+> 
+> Update 6/12/2026: Because the 74_259 resets to all outputs low and the relay module is active low, all the relays default to being on at startup.\
+> Adding a 74_240 inline between the 74_259 and relay board will correct for this in a future revision.\
 > Schematics and Gerbers for an "OOPS! Inverter" board will be uploaded soon.
 
 > [!CAUTION]
